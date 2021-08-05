@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Irvan Lutfi Gunawan">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+    </style>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+          integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" type="text/css" href="dist/fullpage.css"/>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="dist/imagehover.min.css">
+    <link rel="stylesheet" href="dist/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/owlcarousel/assets/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <style>
+        body {
+            background-color: #1E1F23;
+            width: 100%;
+            height: 100%;
+        }
+        #profile-section {
+            background-color: #FFFFFF;
+            min-height: auto;
+        }
+
+        .image-profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #333;
+        }
+
+        .image-irvan {
+            vertical-align: middle;
+            background-image: url("assets/irvan.png");
+            width: 80px;
+            height: 75px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .font-300 {
+            font-weight: 300 !important;
+        }
+        .font-400 {
+            font-weight: 400 !important;
+        }
+        .font-500 {
+            font-weight: 500 !important;
+        }
+
+    </style>
+</head>
+<body>
+
+<a href="index.html"><div class="back-button">
+
+</div></a>
+<section>
+    <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12 p-5 my-auto custom-div">
+            <h5 class="align-middle mt-4 text-white font-300" id="data-title">Hallo, aku </h5>
+            <h2 class="align-middle text-white font-400" id="data-description">IRVAN LUTFI GUNAWAN</h2>
+            <h5 class="text-green" id="data-profession">Backend-Mobile Developer</h5>
+        </div>
+        <div class="col-lg-8 col-md-12 col-sm-12" >
+            <div id="profile-section" class="vh-100" >
+                <div id="fullpage">
+                    <div class="section" id="section2-profile">
+                        <div class="split center py-sm-5 py-md-5 py-lg-0">
+                            <div class="split-content my-auto" style="width: 100%">
+                                <div class="image-profile mx-auto mb-3">
+                                    <div class="image-irvan"></div>
+                                </div>
+                                <h3 class="detail-text align-middle mt-2 text-center">"Tak Kenal Maka Tak Sayang"</h3>
+<!--                                <p class="text-center">Irvan Lutfi Gunawan</p>-->
+                                <p class="text-center px-5 mt-4 text-grey">
+                                    Saya seorang mahasiswa di kota bandung dan sedang menempuh pendidikan kuliah tahun ke-3 di Universitas Komputer Indonesia, dan saya pun sebagai freelancer di bidang Mobile Development dan Backend Development pada beberapa perusahaan
+                                </p>
+
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h5 class="text-green mt-4 mb-3">Pendidikan</h5>
+                                            <ul>
+                                                <li>Universitas Komputer Indonesia (Sistem Informasi)</li>
+                                                <li>SMK Negeri 4 BANDUNG (Rekayasa Perangkat Lunak)</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6">
+                                            <h5 class="text-green mt-4 mb-3">Pengalaman</h5>
+                                            <ul>
+                                                <li>Gits Indonesia (internship)</li>
+                                                <li>Someah Kreatif Indonesia</li>
+                                                <li>PPDB Provinsi Jawa Barat (2019-2020)</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="section" id="section3-profile">
+                        <div class="split center text-center py-sm-5 py-md-5 py-lg-0">
+                            <div class="split-content my-auto">
+                                <h5 class="text-green">Pendidikan</h5>
+                                <h3 class="detail-text align-middle mt-4 ">Universitas Komputer Indonesia</h3>
+                                <div class="unikom-vector mx-auto"></div>
+                                <a href="https://unikom.ac.id/" target="_blank"><button type="button" class="btn btn-custom text-white">Pelajari Lebih Lanjut</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="dist/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="dist/scrolloverflow.js"></script>
+<script type="text/javascript" src="dist/fullpage.js"></script>
+<script type="text/javascript" src="dist/owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="dist/owlcarousel/highlight.js"></script>
+<script type="text/javascript" src="content.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+<script type="text/javascript">
+    const myFullpage = new fullpage('#fullpage', {
+        sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#F6F8FD', '#ccddff'],
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        menu: '#menu',
+        fadingEffect: true,
+        parallax: true,
+        verticalCentered: true,
+        navigation: true,
+        navigationPosition: 'right',
+        scrollOverflow: true,
+        afterLoad: function (origin, destination, direction) {
+            let title = "Hallo, aku";
+            let description = "IRVAN LUTFI GUNAWAN"
+            let profession = "Backend-Mobile Developer"
+            let params = {
+                origin: origin,
+                destination: destination,
+                direction: direction
+            };
+
+            if (destination.index === 1) {
+                title = "Kuliah, di"
+                description = "Universitas Komputer Indonesia"
+                profession = "Prodi Sistem Informasi - 2018"
+            } else {
+                title = "Hallo, aku"
+                description = "IRVAN LUTFI GUNAWAN"
+                profession = "Backend-Mobile Developer"
+            }
+
+            $("#data-description").fadeOut(function() {
+                $(this).text(description)
+            }).fadeIn();
+
+            $("#data-title").text(title)
+            $("#data-profession").text(profession)
+
+
+        }
+    });
+
+
+</script>
+
+</body>
+</html>
